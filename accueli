@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<title>landing page</title>
+	</head>
+	<body>
+		<!-- header  -->
+		<header>
+
+			<!-- menu du navigation -->
+
+			
+			<div class="navmenu">
+				<a href="#">home</a>
+				<a href="#">about</a>
+				<a href="#">menu</a>
+				<a href="#">offers</a>
+				<a href="#"><img src="images/Logo.png" id="logo"></a>
+				<a href="#">gallery</a>
+				<a href="#">contact</a>
+				<a href="#">blog</a>
+			</div>
+		    <div>
+		    	<div class="part">
+		    		<img src="images/image 2.png">
+		    		
+		    	</div>
+		    	<div class="part">
+		    		<h3>Contact Us For<br>
+						Best Breakfasr</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+					<button>Contact us</button>
+		    	</div>
+		    </div>
+
+		</header><!---End of header-->
+
+		<div class="pageContent"><!--Page Content-->
+			<section class="section"> <!--First section -->
+            	<div class="left"> 
+                	<img src="images/image 3.png">      	
+				</div>
+            	<div class="right">
+            		<h2>about us</h2>
+            		<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                	</p>
+					<img src="images/Layer 1.png" id="image"> 
+            	</div>
+			</section> <!--End of first section-->
+			<section class="section"><!--Second Section -->
+				<div id="shape">
+					<h3>Our Food Quality</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+						ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+						accumsan lacus vel facilisis. 
+						</p>
+					<img src="images/image 5.png">
+				</div>
+			</section> <!--End of second section-->
+			<img src="images/image 4.png" style="width: 600px; height: 600px; margin-top:-100rem; margin-left:-6rem; position: relative; margin-bottom: 10px; ">
+			<section class="section"><!--Third section-->
+				<center>
+					<h3>Our Food Gallery</h3>
+					<!--Gallery -->
+					<div id="ImgGallery">
+						<img src="images/gallery 1.png">
+						<img src="images/gallery 2.png">
+						<img src="images/gallery 3.png">
+					</div>
+					<div id="ImgGallery">
+						<img src="images/gallery 4.png">
+						<img src="images/gallery 5.png">
+						<img src="images/gallery 6.png">
+					</div> <!--End of gallery-->
+				</center>
+			</section> <!--End of third section-->
+			<section class="section"><!--Fourd section-->
+				<img src="images/background.png">
+				<div id="paragraph">
+					<h3>Enjoy Our Food</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+				</div>
+
+			</section> <!---End of fourd section-->
+			<section class="section"> <!--section of OUR menu-->
+				<center>
+					<h3>Our Menu</h3>
+					<div id="menu">
+						<figure>
+							<img src="images/menu 1.png">
+							<figcaption>
+								<h3>ITALIAN SOURCE MUSHROOM</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+									elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.<br>
+									<em>Price: $12.00</em></p>
+								
+							</figcaption>
+						</figure>
+					</div>
+					<div id="menu">
+						<figure>
+							<img src="images/menu 2.png">
+							<figcaption>
+								<h3>ITALIAN SOURCE MUSHROOM</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+									elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse<br>
+									<em>Price: $12.00</em>
+								</p>
+								
+							</figcaption>
+						</figure>
+					</div>
+					<div id="menu">
+						<figure>
+							<img src="images/menu 3.png">
+							<figcaption>
+								<h3>ITALIAN SOURCE MUSHROOM</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+								elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.<br>
+								<em>Price: $12.00</em></p>
+								
+							</figcaption>
+						</figure>
+					</div>
+				</center>
+			</section> <!--End of section -->
+			<section id="rectangle"><!--Section rectangle-->
+				<div class="left">
+					<img src="images/image 4.png">
+				</div>
+				<div class="right">
+					<h3>Enjoy Best Meal</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+				</div>
+			</section><!--end of section rectangle-->
+			<div class="contact"><!--Contact form-->
+                    <form >
+						<h1>Contact form </h1>
+						<div class="labForm"><label>Name : </label>
+							<input name="name" placeholder="Your name" title="Your name" type="text" required />
+						</div>
+
+                        <div class="labForm"><label>E-mail : </label>
+							<input name="email" placeholder="Your e-mail" title="Your e-mail" type="email" required >
+						</div>
+						<div class="labForm"><label>Adress : </label>
+							<input name="adresse" placeholder="Your Adress" title="your Adress" type="text" required >
+						</div>
+						<div class="labForm"><label>Phone : </label>
+							<input name="phone" placeholder="Your phone" title="Your phone" type="text" required >
+						</div>
+						<div class="labForm"><label>Subject : </label>
+							<input name="subject" placeholder="Subject" title="Your subject" type="text">
+						</div>
+                        <div class="labForm"><label>Message : </label>
+							<input name="message" placeholder="message" title="Your message" type="text">
+						</div>
+						<button class="submit">Send</button>
+                    </form>
+			</div><!--End of contact form-->
+			<div id="map-block">  	<!--Map-->  
+					<iframe src="https://www.google.com/maps/embed?pb=!1
+					m14!1m8!1m3!1d682251.1123056135!2d17.063451638281247!3d48.09010461740988!3m2!1i1024!2i768!4f13.1!
+					3m3!1m2!1s0x476c8cbf758ecb9f%3A0xddeb1d26bce5eccf!2sGallayova+2150%2F19%2C+841+02+D%C3%BAbravka%2C+S
+					lovensk%C3%A1+republika!5e0!3m2!1ssk!2s!4v1412519122400" width="90%" height="450" frameborder="0" style=
+					"border:0 ;margin-left:50px;"></iframe>
+			</div>
+		</div><!--End of page Content-->
+		<footer><!--Footer-->
+			<img src="images/logo2.png" id="img">
+			<ul>
+				<li>Home</li>
+				<li>about us</li>
+				<li>services</li>
+				<li>foods</li>
+				<li>contact</li>
+				<li>location</li>
+			</ul>
+	       <div id="social">
+				<img src="images/facebook.png" >
+				<img src="images/twiter.png" >
+				<img src="images/instagram.png">
+				<img src="images/pinterst.png">
+			</div>
+
+		</footer><!--End of Footer-->
+
+	</body>
+
+</html>
